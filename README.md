@@ -1,2 +1,4 @@
-# clang.online.compilers
-server to c language far compile
+# oparetion system python simulator
+
+builder.py build cd iso image
+workstation run emulator
