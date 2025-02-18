@@ -1,4 +1,2 @@
-# oparetion system python simulator
-
-builder.py build cd iso image
-workstation run emulator
+# command line
+game a game mad out of text
