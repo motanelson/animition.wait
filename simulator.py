@@ -13,7 +13,10 @@ print ("\033c\033[43;30m\nenter simulator\n")
 x=0
 y=0
 z=0
-for z in ranges(3):
-    for y in ranges(3):
-        for x in ranges(3):
-             print (str(z)+","+str(y)+","+str(x))
+w=0
+s=list(ranges(3))
+for w in s:
+    for z in s:
+        for y in s:
+            for x in s:
+                print (str(w)+","+str(z)+","+str(y)+","+str(x))
