@@ -1,1 +1,1 @@
-simulator simulator.Nipkow.reverse
+please wait for internet
