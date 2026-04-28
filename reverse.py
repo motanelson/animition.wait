@@ -6,11 +6,11 @@ class NipkowDiskApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Disco de Nipkow")
-        self.root.configure(bg='yellow')
+        self.root.configure(bg='black')
 
         # Canvas
         self.canvas_size = 400
-        self.canvas = tk.Canvas(root, width=self.canvas_size, height=self.canvas_size, bg='yellow')
+        self.canvas = tk.Canvas(root, width=self.canvas_size, height=self.canvas_size, bg='black')
         self.canvas.pack(padx=20, pady=20)
 
         self.center = self.canvas_size // 2
@@ -29,7 +29,7 @@ class NipkowDiskApp:
         self.canvas.create_oval(
             self.center - self.radius, self.center - self.radius,
             self.center + self.radius, self.center + self.radius,
-            outline="black", width=2
+            outline="white", width=2
         )
         self.canvas.create_line(self.center, self.center, self.center + math.cos(math.radians(36*7)) * (self.radius), self.center + math.sin(math.radians(36*7)) * (self.radius), width=2)
         self.canvas.create_line(self.center, self.center, self.center + math.cos(math.radians(36*8)) * (self.radius), self.center + math.sin(math.radians(36*8)) * (self.radius), width=2)
@@ -53,7 +53,7 @@ class NipkowDiskApp:
             
             # Círculo no final da linha (ponto)
             r = 6
-            color= "black"
+            color= "white"
             self.canvas.create_oval(
                 x - r, y - r, x + r, y + r,
                 fill=color
