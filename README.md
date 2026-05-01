@@ -1,1 +1,1 @@
-please wait for internet
+object text file format
